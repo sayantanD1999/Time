@@ -112,7 +112,7 @@ function Clock() {
 
     setLocation(data.results[0].annotations.timezone.name);
     setTime_zone(data.results[0].annotations.timezone.short_name);
-    var month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
+    var month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sept", "Oct", "Nov", "Dec"];
     var d = new Date();
     var date = d.getDate();
     var month = d.getMonth() + 1;
